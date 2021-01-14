@@ -1,13 +1,4 @@
-
-# News-In-One
-See the latest headlines from multiple news sources, all in one page. 
-
-It retrieves headlines from a predefined number of news sites, with appropriate links to the news item. :clap: 
-
-You no longer have to visit your favourite news sites individually just to view the trending and latest headlines. Your news crawling is now made easy!!! You're welcome... :smiley:
-
-To add more news sources, check out the included links.txt file.
-
-Built with the help of <a href="https://newsapi.org">Newsapi.org</a> . :heart:
-
-Check out the live preview at <a href="http://codepen.io/fortecdev/pen/mmROZV">http://codepen.io/fortecdev/pen/mmROZV</a>
+# RSS Reader (JavaScript)
+RSS reader written in JavaScript.  
+  
+>💁 If you're getting `Cross origin requests are only supported for HTTP` error while opening the HTML with `file:///` protocol, just open and save the HTML file using a text editor, that should resolve the issue. Or, for a quick test, you can also use a browser add-on such as [CORS Everywhere for Firefox](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/).
