@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154613217-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-154613217-1');
+    </script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,11 +41,11 @@
 <body>
 	<div data-role ="page" id = "master">
 		<div data-role ="header" id = "header"> Chess News </div>
-		<div data-role ="content"><h1> Chess News </h1></div>
+		<div data-role ="content"><h1> Chess in news </h1></div>
 		<div id = "stories">
 			<ul id="storyList" data-role = "listview"> </ul>
 		</div>
-		<div data-role ="footer" id = "footer"> copyright 2021 vishwas.ib@gmail.com </div>
+		<div data-role ="footer" id = "footer"> </div>
 	</div>
 	
 	<div data-role="page" id="detail"> 
@@ -50,7 +58,7 @@
 			<div id="fullStoryLink"></div> 
 			<a href="#master"><button>All Stories</button></a> 
 		</div> 
-		<div data-role ="footer" id = "footer"> copyright 2021 vishwas.ib@gmail.com </div>
+		<div data-role ="footer" id = "footer"> </div>
 	</div>	
 	<script> 
 		const key = "244a877610d04cdc9f27f30252e141d9";
