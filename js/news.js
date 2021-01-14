@@ -4,11 +4,16 @@ $(document).ready(()=>{
 
 	function getNews()
 	{
-		let endPoint = "https://newsapi.org/v2/articles";
+		//let endPoint = "https://newsapi.org/v2/everything";
+		
+		let endPoint = "http://newsapi.org/v2/everything?q=chess&sortBy=latest&apiKey=244a877610d04cdc9f27f30252e141d9";
 		let apiKey = "244a877610d04cdc9f27f30252e141d9";
 		//sources can be added from the included links.txt
+		// let urls = [
+			// `${endPoint}?q=chess&sortBy=latest&apiKey=${apiKey} `
+		// ];
 		let urls = [
-			`${endPoint}?q=chess&sortBy=latest&apiKey=${apiKey} `
+			`${endPoint}`
 		];
 
 		let allResults = [];
